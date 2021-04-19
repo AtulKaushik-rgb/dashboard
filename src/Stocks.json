@@ -1,0 +1,80 @@
+{
+  "Stocks in News": [
+    {
+      "title": "SREI",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE872A01014.png"
+    },
+    {
+      "title": "Vodafone",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE669E01016.png"
+    },
+    {
+      "title": "JSW Steel",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE019A01038.png"
+    },
+    {
+      "title": "Bharti Airtel",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE397D01024.png"
+    }
+  ],
+  "Top Gainers": [
+    {
+      "title": "Zydus Cadila",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE010B01027.png"
+    },
+    {
+      "title": "Cipla",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE059A01026.png"
+    },
+    {
+      "title": "Alkem",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE540L01014.png"
+    },
+    {
+      "title": "Aurbindo Pharma",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE406A01037.png"
+    }
+  ],
+  "Top Losers": [
+    {
+      "title": "Hindustan Zinc",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE267A01025.png"
+    },
+    {
+      "title": "Bajaj Finance",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE296A01024.png"
+    },
+    {
+      "title": "Adani Transmission",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE931S01010.png"
+    },
+    {
+      "title": "Indus Towers",
+      "price": "brad",
+      "change": "gibson",
+      "logo": "https://assets-netstorage.groww.in/stock-assets/logos/INE121J01017.png"
+    }
+  ]
+}
