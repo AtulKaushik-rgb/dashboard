@@ -66,11 +66,16 @@ const useStyles = makeStyles((theme) => ({
   tabContainer:{
     fontWeight:'600',
     paddingTop:'30px',
+    marginLeft:'50px',
     "& button":{
       fontWeight:'400',
       fontSize:'18px',
       textTransform:'none'
+    },
+    '& MuiTabs-indicator':{
+      width:'100px'
     }
+
 
   },
   linkClass:{
@@ -121,8 +126,8 @@ const Appbar = () => {
 
   return (
     <>
-      <div>
-        <Grid container className={classes.container}>
+      <div style={{background:'none'}}>
+        <Grid container style={{background:'none',width: "1200px"}} className={classes.container}>
           <Grid item md={5} lg={5} className={classes.iconClass}>
             {/* <Typography variant="h4">Groww</Typography> */}
             <img src={GrowLogo} width style={{width:'148px',height:'40px',marginRight:'10px'}}></img>
@@ -159,16 +164,16 @@ const Appbar = () => {
           </Grid>
           <Grid item className={classes.iconContainer} md={3} lg={3}>
             <Badge className={classes.badgeIcons} spacing={1} badgeContent={0} color="secondary">
-              <NotificationsNoneIcon />
+              <NotificationsNoneIcon style={{cursor:'pointer'}} />
             </Badge>
             <Badge className={classes.badgeIcons}  spacing={1} badgeContent={1} color="primary">
-              <AccountBalanceWalletOutlinedIcon />
+              <AccountBalanceWalletOutlinedIcon style={{cursor:'pointer'}}/>
             </Badge>
             <Badge className={classes.badgeIcons}  spacing={1} badgeContent={2} color="primary">
-              <ShoppingCartOutlinedIcon />
+              <ShoppingCartOutlinedIcon style={{cursor:'pointer'}}/>
             </Badge>
             <Badge className={classes.badgeIcons}  spacing={1} badgeContent={0} color="primary">
-              <AccountCircleOutlinedIcon />
+              <AccountCircleOutlinedIcon style={{cursor:'pointer'}}/>
             </Badge>
           </Grid>
           {/* <Paper> */}
@@ -178,7 +183,6 @@ const Appbar = () => {
             onChange={handleTabChange}
             indicatorColor="primary"
             textColor="primary"
-            centered
           >
             <Tab disableRipple label="Stocks"/>
             <Tab disableRipple label="Mutual Funds" />
