@@ -2,22 +2,16 @@ import React from "react";
 import GrowLogo from './logo/GrowwLogo.svg';
 import Grid from "@material-ui/core/Grid";
 import Tabs from "@material-ui/core/Tabs";
-import Paper from "@material-ui/core/Paper";
 import Badge from "@material-ui/core/Badge";
 import Divider from "@material-ui/core/Divider";
 import Tab from "@material-ui/core/Tab";
-import Button from "@material-ui/core/Button";
 import Link from "@material-ui/core/Link";
-import Input from "@material-ui/core/Input";
-import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-import WavesIcon from "@material-ui/icons/Waves";
 import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
 import AccountBalanceWalletOutlinedIcon from "@material-ui/icons/AccountBalanceWalletOutlined";
 import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import AccountCircleOutlinedIcon from "@material-ui/icons/AccountCircleOutlined";
-import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
-import { TableContainer } from "@material-ui/core";
+import { InputBase } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -30,6 +24,17 @@ const useStyles = makeStyles((theme) => ({
     margin:'0 auto',
     marginTop:'20px',
     paddingBotton:'0'
+  },
+  input:{
+    border:'1px solid #ecedef',
+    background:'none',
+    position:'relative',
+    padding:'5px',
+    width:'450px',
+    height:'41px',
+    fontSize:'17px',
+    borderRadius:'5px',
+    boxShadow: "0 1px 5px 0 rgb(0,0,0,0.1)",
   },
   iconClass: {
     display: "flex",
@@ -133,9 +138,9 @@ const Appbar = () => {
             <img src={GrowLogo} width style={{width:'148px',height:'40px',marginRight:'10px'}}></img>
             <Link
               className={classes.linkClass}
+              style={{fontWeight:400}}
               underline = 'none'
-              component="a"
-              variant="a"
+              variant="body2"
               spacing={2}
               onClick={() => {
                 console.info("I'm a button.");
@@ -145,9 +150,9 @@ const Appbar = () => {
             </Link>
             <Link
             className={classes.linkClass}
+            style={{fontWeight:400}}
             underline = 'none'
-              component="a"
-              variant="a"
+            variant="body2"
               spacing={2}
               onClick={() => {
                 console.info("I'm a button.");
@@ -158,8 +163,13 @@ const Appbar = () => {
           </Grid>
           <Grid className={classes.inputContainer} item md={4} lg={4}>
             <div className={classes.inputs}>
-              <Input variant="contained"></Input>
-              <SearchOutlinedIcon />
+            <InputBase
+        className={classes.input}
+        placeholder="Search stocks and mutual funds"
+        inputProps={{ 'aria-label': 'Search stocks and mutual funds' }}
+      />
+      <div><img style={{position:'absolute', right:'10px',top:'12px'}} alt='search' width='19px'height='19px' src='https://assets-netstorage.groww.in/website-assets/prod/1.5.6/build/client/images/search.494f6987.svg'></img></div>
+              
             </div>
           </Grid>
           <Grid item className={classes.iconContainer} md={3} lg={3}>
@@ -183,6 +193,7 @@ const Appbar = () => {
             onChange={handleTabChange}
             indicatorColor="primary"
             textColor="primary"
+            centered = {false}
           >
             <Tab disableRipple label="Stocks"/>
             <Tab disableRipple label="Mutual Funds" />

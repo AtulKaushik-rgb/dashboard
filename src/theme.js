@@ -1,5 +1,4 @@
 import { createMuiTheme,responsiveFontSizes } from '@material-ui/core/styles';
-import {orange} from '@material-ui/core/colors'
 
 let Theme = createMuiTheme({
   palette: {
@@ -8,7 +7,11 @@ let Theme = createMuiTheme({
     },
     secondary:{
         main:'#F29682'
+    },
+    bluish:{
+      main:'#5367FF'
     }
+
   },
   overrides: {
     Paper:{
@@ -35,6 +38,7 @@ let Theme = createMuiTheme({
       //   }
       // }
     }
+
   },
   typography: {
     // Use the system font instead of the default Roboto font.
@@ -48,7 +52,13 @@ let Theme = createMuiTheme({
       '"Segoe UI Symbol"',
     ].join(','),
     fontWeight: 600,
-    textTransform: 'none'
+    textTransform: 'none',
+    body1:{
+      fontWeight:400,
+    },
+    body2:{
+      fontWeight:400
+    }
   },
 });
 
