@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/dashboard/static/js/main.ddb900f7.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.ddb900f7.chunk.js.map",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.6d9b8876.js",
+    "runtime-main.js.map": "/dashboard/static/js/runtime-main.6d9b8876.js.map",
+    "static/js/2.401ee923.chunk.js": "/dashboard/static/js/2.401ee923.chunk.js",
+    "static/js/2.401ee923.chunk.js.map": "/dashboard/static/js/2.401ee923.chunk.js.map",
+    "static/css/3.adc6f56e.chunk.css": "/dashboard/static/css/3.adc6f56e.chunk.css",
+    "static/js/3.d5ec8888.chunk.js": "/dashboard/static/js/3.d5ec8888.chunk.js",
+    "static/js/3.d5ec8888.chunk.js.map": "/dashboard/static/js/3.d5ec8888.chunk.js.map",
+    "static/js/4.cf8687b5.chunk.js": "/dashboard/static/js/4.cf8687b5.chunk.js",
+    "static/js/4.cf8687b5.chunk.js.map": "/dashboard/static/js/4.cf8687b5.chunk.js.map",
+    "index.html": "/dashboard/index.html",
+    "static/css/3.adc6f56e.chunk.css.map": "/dashboard/static/css/3.adc6f56e.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/dashboard/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.401ee923.chunk.js.LICENSE.txt": "/dashboard/static/js/2.401ee923.chunk.js.LICENSE.txt",
+    "static/media/GrowwLogo.be895e1f.svg": "/dashboard/static/media/GrowwLogo.be895e1f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d9b8876.js",
+    "static/js/2.401ee923.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.ddb900f7.chunk.js"
+  ]
+}
